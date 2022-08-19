@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -32,7 +33,7 @@ export default function Profile() {
               Hello, Im <span className="highlighted-text">Marben</span>
             </span>
           </div>
-          <div className="pofile-details-role">
+          <div className="profile-details-role">
             <span className="primary-text">
               {""}
               <h1>
@@ -42,7 +43,7 @@ export default function Profile() {
                 steps={[
                   "Enthusiastic Dev 🌞",
                   1000,
-                  "FLutter Developer 📱",
+                  "Flutter Developer 📱",
                   1000,
                   "React/React Native Dev  💻",
                   1000,
