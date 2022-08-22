@@ -20,8 +20,9 @@
 .header-options{
   display: flex;
   align-items: center;
+
   justify-content: space-between;
-  cursor: pointer
+  /* cursor: pointer  */
 }
 .header-option{
   font-size: 16px;
@@ -35,6 +36,7 @@
 .header-option-separator{
   margin: 0 50px 0 0;
   color: var(--white);
+  /* color: green; */
 }
 .selected-header-option{
   color: #ff5823;
@@ -74,6 +76,7 @@
   }
   .selected-header-option{
     color: var(--white);
+    /* color: green; */
   }
   .header-option{
     color: var(--white);

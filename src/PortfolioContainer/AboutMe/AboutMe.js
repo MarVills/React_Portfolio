@@ -13,6 +13,9 @@ export default function AboutMe(props) {
     
   }
   const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+
+  const SCREEN_CONSTANTS = {}
+
   return (
     <div className='about-me-container screen-container' id={props.id || ""}>
       <div className='about-me-parent'>
