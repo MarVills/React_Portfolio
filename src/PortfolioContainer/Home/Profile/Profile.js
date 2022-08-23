@@ -58,11 +58,10 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-                {""}
-                Hire Me{""}
-            </button>
-            <a href="Marben-Villaflor_CV_Developer.pdf" download="Marben Villaflor Developer Resume.pdf">
+            <button className="btn primary-btn">Hire Me</button>
+            <a href="Marben-Villaflor_CV_Developer.pdf" 
+            // download="Marben Villaflor Developer Resume.pdf"
+            >
               <button className='btn highlighted-btn'>Get Resume</button>
             </a>
           </div>
